@@ -54,7 +54,7 @@ h1 {
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
-  right: 25%
+  right: 25%;
 }
 
 /*---------------------------- Features --------------------------------*/
@@ -64,7 +64,6 @@ h1 {
   margin-bottom: 5rem;
   background-color: #fff;
   position: relative;
-
 }
 
 .icon {
@@ -81,8 +80,6 @@ h3 {
   font-size: 1.5rem;
   font-weight: 800;
   font-family: "Montserrat";
-
-
 }
 
 .features-text {
@@ -137,7 +134,6 @@ h2 {
   padding: 7% 15%;
 }
 
-
 /*--------------------------------- pricing Section ----------------- */
 
 #pricing {
@@ -147,4 +143,9 @@ h2 {
 
 .pricing-col {
   padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ef8172;
+  text-align: center;
 }
