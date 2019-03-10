@@ -149,3 +149,6 @@ h2 {
   background-color: #ef8172;
   text-align: center;
 }
+
+@media (max-width: 900px) {
+}
