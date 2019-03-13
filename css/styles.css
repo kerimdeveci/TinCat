@@ -2,7 +2,6 @@ body {
   font-family: "Montserrat";
   background-color: #fff;
   text-align: center;
-
 }
 
 h1,
@@ -12,11 +11,6 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat";
-}
-
-h3 {
-  font-size: 1.5rem;
-  font-weight: 800;
 }
 
 /* --------------------- headings --------------------------------- */
@@ -32,11 +26,19 @@ h3 {
   font-weight: 800;
 }
 
+/*------------------------- sections general ------------------------*/
+.white-section {
+  background-color: #fff;
+}
+.colored-section {
+  background-color: #ff4c68;
+  color: aliceblue;
+}
+
 /* --------------------------- containers -------------------------------- */
 .container-fluid {
   padding: 7% 15%;
 }
-
 
 /*---------------------------- Navigation Bar--------------------------- */
 
@@ -60,16 +62,11 @@ h3 {
 }
 
 /* ----------------------- title section ------------------------------ */
-#title {
-  background-color: #ff4c68;
-  color: aliceblue;
-  position: relative;
-  z-index: 0;
-  text-align: left;
-}
 
 #title .container-fluid {
   padding: 3% 15% 7%;
+  position: relative;
+  text-align: left;
 }
 
 /*---------------------------- dOWNLOAD Buttons ------------------------ */
@@ -90,8 +87,12 @@ h3 {
 /*---------------------------- Features --------------------------------*/
 
 #features {
-  background-color: #fff;
   position: relative;
+}
+
+.features-heading {
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 .icon {
@@ -118,7 +119,6 @@ h3 {
 
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -149,13 +149,16 @@ h3 {
   margin: 20px 20px 50px;
 }
 
-
 /*--------------------------------- pricing Section ----------------- */
 
 #pricing {
   padding: 10% 15%;
 }
 
+.card-header h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
 .price-tag {
   font-size: 3rem;
   line-height: 1.5;
@@ -178,12 +181,6 @@ h3 {
 }
 
 /* ------------------call to action -------------------------*/
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-
 
 @media (max-width: 600px) {
   .cta-h3 {
@@ -198,8 +195,6 @@ h3 {
 /* -------------------------- FOOTER ------------------------- */
 
 #footer {
-  background-color: #fff;
-
 }
 
 .copyright {
